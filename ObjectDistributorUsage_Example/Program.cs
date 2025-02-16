@@ -1,14 +1,10 @@
-﻿using Microsoft.Extensions.Logging;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using VibeSoft.ObjectDistributor;
 
 namespace ObjectDistributorUsage_Example;
 
-
-
 internal class Program
 {
-    
     static void Main(string[] args)
     { 
         // Setup. Create the distributor and an example subscriber (can be any class)
