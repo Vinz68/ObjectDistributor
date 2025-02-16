@@ -24,19 +24,9 @@ So keep subscriber handling time short as possible. The distribution order is th
 
 
 ## Usage
+The usage is simple, see the ObjectDistributor_Example project.
 
-The usage is simple:
 
-```csharp   
-    var singleInstanceWrapper = new SingleInstanceAppWrapper()
-
-    // Check if the application is already running
-    if (!singleInstanceWrapper.IsApplicationFirstInstance())
-    {
-        Console.WriteLine("Application is already running.");
-        return;
-    }
-```
 
 
 
